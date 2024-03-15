@@ -1,13 +1,15 @@
-// nesse metodo irei usar o splice 
-// ele modifica a Array adicionando algum dado 
-// ou removendo um dado de alguma posição e adicionando outro qualquer
-let meses = ['Janeiro', 'Marco', 'Abril', 'maio'];
-// aqui eu estou dizendo que fevereiro ira ocupar a posição 1(Array começam do 0)
-// e ele nao irá remover nada 
-meses.splice(1, 0, 'Fevereiro');
-console.log(meses);
+//metodo para adicionar algum objeto em alguma Array
+let marcas = ['lacoste', 'Chevrolet', 'Nike']
+// aqui eu estou dizendo que o metodo push irá adicinar algo em marcas
+marcas.push('Adidas')
+console.log(marcas)
 
-let numeros = ['1', '7', '10', '13', '23']
-// aqui eu estou dizendo que o numero 999 ira ocupar a posição 2 e irá remover apenas 1 elemento
-numeros.splice(2, 1, '999')
-console.log(numeros)
+let numero = [ '1', '3', '4', '6', '8']
+// ele sempre adicionará no final da Array
+numero.push('2')
+console.log(numero)
+
+let numero2 = [ '1', '3', '4', '6', '8']
+numero.push('2')
+numero.sort()
+console.log(numero)
