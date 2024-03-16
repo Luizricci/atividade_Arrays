@@ -7,9 +7,4 @@ console.log(marcas)
 let numero = [ '1', '3', '4', '6', '8']
 // ele sempre adicionará no final da Array
 numero.push('2')
-console.log(numero)
-
-let numero2 = [ '1', '3', '4', '6', '8']
-numero.push('2')
-numero.sort()
-console.log(numero)
+console.log(numero);
